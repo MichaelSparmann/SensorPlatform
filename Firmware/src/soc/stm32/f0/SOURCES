@@ -1,0 +1,8 @@
+#include "global.h"
+
+rcc.cpp
+serialnum.cpp
+
+#ifdef STM32_ENABLE_USB
+usb.cpp
+#endif

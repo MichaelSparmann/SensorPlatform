@@ -1,0 +1,6 @@
+printusbpackets false
+printrfpackets false
+printdroppedpackets true
+printdevdiscovered true
+printsensorsdiscovered true
+startradio 0 0 3 3 32 0 0

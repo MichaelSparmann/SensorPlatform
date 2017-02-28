@@ -1,0 +1,15 @@
+#include "global.h"
+
+init.cpp
+pwr.cpp
+flash.cpp
+syscfg.cpp
+gpio.cpp
+
+#ifdef STM32_ENABLE_EXTI
+exti.cpp
+#endif
+
+#ifdef STM32_ENABLE_CRC32
+crc32.cpp
+#endif
